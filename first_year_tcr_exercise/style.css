@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+  margin: 0;
+  height: 100vh;
+}
+
+.header { position: absolute;
+  text-align: center;
+  font-size: 50px;
+  top: 50%;
+  color: white;
+  width: 100%;    
+
+}
+/* Lettering */
+
+h1 {font: bold;}
+
+/* Footer */
+footer { 
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+  text-align: center;
+  }
+
+/* Navbar */
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+/*index pagina starts here*/
+.hackerman {
+  background-image: url(/img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/*Changes to all pages*/ 
+
+.title  { 
+  text-align: center;
+  font-size: 50px;
+  top: 20%;
+  color: black;
+  width: 100%;
+}
+
+
+/*HTML pagina starts here*/
+
+ .blue {
+  color: blue;
+ }
+ .orange {
+  color: orange;
+ }
+
+/*Javascript pagina starts here*/
+
+.mainjavascript {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.white { 
+  text-align: center;
+  font-size: 50px;
+  top: 20%;
+  color: white;
+  width: 100%;
+}
+
+/*PHP pagina starts here*/
+
+.phpimg {
+  padding-top: 10vh;
+}
+
+/*SQL pagina starts here*/
+
+.sqlimg {
+  padding-top: 10vh;
+}
+
+/* Contact Form starts here */
+
+form {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-style: solid;
+  padding-top: 5px;
+  padding-left: 500px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.contact {
+  width: 150px;
+  margin: 2px auto;
+}
