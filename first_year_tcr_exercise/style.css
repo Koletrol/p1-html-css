@@ -74,6 +74,36 @@ nav img {
   width: 5vw;
 }
 
+
+.dropdown-content {
+  display: none;
+  position: absolute ;
+  background-color: white;
+  min-width: 20vw;
+  z-index: 1;
+ 
+}
+
+.dropdown-content a {
+  color: #00a8c7;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+  display: block;
+  color: #00a8c7;
+  background-color: white;
+}
+
+.dropdownitem:hover {
+  background-color: #E9E9E9;
+}
+
 /*index pagina starts here*/
 .hackerman {
   background-image: url(img/background.jpeg);
@@ -89,46 +119,46 @@ nav img {
   text-align: center;
   font-size: 50px;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 3em;
 }
 
 .twenty {
   font-size: 20px;
 }
 
-
-/*HTML pagina starts here*/
-
- .blue {
+.yellow {
+  color: yellow;
+}
+.white { 
+  color: white;
+}
+.blue {
   color: blue;
  }
  .orange {
   color: orange;
  }
 
+/*HTML pagina starts here*/
+
  .fullhtmltext {
-  margin-left: 0px;
-  padding-left: 750px;
-  padding-top: 70px;
-  padding-right: 20px;
+  margin-left: 50%;
+  margin-top: 5% ;
 }
 
 .htmltext {
-  margin-right: 100px;
-  margin-left: 2px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   font-size: 15px;
 }
 
 .htmlimage {
   float: left;
-  width: 500px;
-  height: 400px;
-  margin-left: 150px;
-  margin-top: 10px;
-  margin-right: 5px;
-  margin-bottom: 10px;
+  width: 33%;
+  height: 33%;
+  padding-right: 0px;
+  margin-left: 10%;;
 }
 
 /*Javascript pagina starts here*/
@@ -145,31 +175,21 @@ nav img {
 
 .javascriptimg {
   float: right;
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 250px;
-  width: 300px;
-  height: 300px;
-}
-
-.yellow {
-  color: yellow;
-}
-
-.white { 
-  color: white;
+  width: 20%;
+  height: 20%;
+  margin-right: 25%;
 }
 
 .javascripttext {
-  color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
   font-size: 15px;
 }
 
 .javascriptalltext {
-  padding-top: 50px;
-  padding-left: 159px;
-  padding-right: 700px;
-  padding-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 55%;
+  margin-top: 5% ;
 }
 
 
@@ -177,38 +197,31 @@ nav img {
 
 .phpimg {
   float: left;
-  width: 500px;
-  height: 400px;
-  margin-left: 150px;
-  margin-top: 10px;
-  margin-right: 5px;
-  margin-bottom: 10px;
+  width: 33%;
+  height: 33%;
+  padding-right: 0px;
+  margin-left: 10%;;
 }
 
 .phptext {
-  margin-right: 100px;
-  margin-left: 2px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   font-size: 15px;
 }
 
 .fullphptext {
-  margin-left: 0px;
-  padding-left: 750px;
-  padding-top: 70px;
-  padding-right: 20px;
+  margin-left: 50%;
+  margin-top: 5% ;
 }
 
 /*SQL pagina starts here*/
 
 .sqlimg {
   float: right;
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 250px;
-  width: 300px;
-  height: 200px;
+  width: 33%;
+  height: 33%;
+  margin-right: 15%;
 }
 
 .sqltext {
