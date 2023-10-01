@@ -72,36 +72,47 @@ nav a {
 }
 nav img {
   width: 5vw;
+  cursor: pointer;
 }
 
-
+/* Dropdown */
 .dropdown-content {
-  display: none;
+  display: flex;
   position: absolute ;
   background-color: white;
+  
   min-width: 20vw;
   z-index: 1;
- 
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition:opacity 200ms ease-in-out;
+
 }
 
 .dropdown-content a {
   color: #00a8c7;
-  display: block;
+  display: flex;
   text-align: left;
+  padding: 0.5rem 0.5rem;
+  
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: flex;
+    opacity: 1;
+    visibility: visible;
 }
 
 .dropdown:hover .dropbtn {
-  display: block;
+  display: flex;
   color: #00a8c7;
   background-color: white;
 }
 
 .dropdownitem:hover {
   background-color: #E9E9E9;
+
 }
 
 /*index pagina starts here*/
@@ -114,7 +125,6 @@ nav img {
 }
 
 /*Changes to all pages*/ 
-
 .title  { 
   text-align: center;
   font-size: 50px;
