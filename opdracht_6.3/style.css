@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+.logo {
+width: 25%;
+display: flex;
+justify-content: flex-start;
+}
+
+.middle {
+width: 50%;
+display: flex;
+justify-content: space-evenly;
+}
+
+.login {
+width: 25%;
+display: flex;
+justify-content: flex-end;
+
+}
