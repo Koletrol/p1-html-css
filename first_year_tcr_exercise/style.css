@@ -77,10 +77,9 @@ nav img {
 
 /* Dropdown */
 .dropdown-content {
-  display: flex;
+  display: none;
   position: absolute ;
   background-color: white;
-  
   min-width: 20vw;
   z-index: 1;
   flex-direction: column;
