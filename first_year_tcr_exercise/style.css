@@ -84,9 +84,8 @@ nav img {
   z-index: 1;
   flex-direction: column;
   opacity: 0;
-  visibility: hidden;
   transition:opacity 200ms ease-in-out;
-
+  
 }
 
 .dropdown-content a {
